@@ -1,0 +1,81 @@
+$colorr: rgb(27, 123, 27);
+.banner{
+    background-image: url("../../../assets/pics.jpg");
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.content{
+    top: 30%;
+    right: 9%;
+    position: absolute;
+}
+.content h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+}
+button{
+    text-decoration: none;
+    background-color: #fff;
+    color: #1f5f0f;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 150px;
+    font-weight: bold;
+}
+i{
+    margin-left: 15px;
+}
+h3{
+    font-weight: bold;
+    color: $colorr;
+}
+h2 .h{
+    color: $colorr;
+}
+h2{
+    margin-top: 6px;
+    font-style: italic;
+    font-weight: bolder;
+    color: #000;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+.col-3{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    margin-left: 80px;
+    margin-bottom: 100px;
+    padding: 30px;
+    font-style: italic;
+    margin-top: 30px;
+
+}
+.bg{
+    background-color: white;
+    margin-top: -10px;
+}
+.image{
+    width: 240px;
+    height: 210px;
+    margin: 20px;
+}
+.card{
+    margin-left: 68px;
+    margin-bottom: 60px;
+}
+.like{
+    background-color:bisque;
+}
+*{
+    overflow-x: hidden;
+}
+.vvv{
+    margin-top: 150px;
+    font-size: larger;
+    font-weight: bold;
+}

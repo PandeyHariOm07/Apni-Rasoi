@@ -1,0 +1,27 @@
+  [
+    {
+      "id": "../../../assets/1.jpg",
+      "name": "Pizza",
+      "price": 100
+    },
+    {
+      "id": "../../../assets/2.jpg",
+      "name": "Burger",
+      "price": 50
+    },
+    {
+      "id": "../../../assets/3.jpg",
+      "name": "Salad",
+      "price": 70
+    },
+    {
+      "id": "../../../assets/4.jpg",
+      "name": "Pasta",
+      "price": 80
+    },
+    {
+      "id": "../../../assets/5.jpg",
+      "name": "Ice cream",
+      "price": 30
+    }
+  ]

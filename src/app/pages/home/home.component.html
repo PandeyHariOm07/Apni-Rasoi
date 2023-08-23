@@ -1,0 +1,43 @@
+<div class="banner">
+    <div class="content">
+        <h1>Fresh Cooked Food <br> At Your Door...</h1>
+        <button [routerLink]="['menu']" routerLinkActive="router-link-active">ORDER NOW<i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+</div>
+<div class="bg">
+<h2 align="center">How To Get <a class="h">Delicious Food</a></h2>
+<div class="container-flex">
+    <div class="row">
+        <div class="col-3">
+            <h3>1</h3>
+            <h4>Select Food</h4>
+        </div>
+        <div class="col-3">
+            <h3>2</h3>
+            <h4>Fill the Details</h4>
+        </div>
+        <div class="col-3">
+            <h3>3</h3>
+            <h4>Get Your Order in minutes</h4>
+        </div>
+    </div>
+</div>
+<div class="like">
+<h2 align="center">What Our Users Like...</h2>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-4 display-center" *ngFor="let f of food">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top image" src={{f.id}} alt="Card image cap">
+                <div class="card-body" align="center">
+                  <h5 class="card-title">{{f.name}}</h5>
+                  <p class="card-text">{{f.price | currency:"INR" }}</p>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-4 vvv"><button>More<i style="margin-top: 10px;" class="fa-solid fa-arrow-right"></i></button></div>
+    </div>
+</div>
+</div>
+</div>
